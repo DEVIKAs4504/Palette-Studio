@@ -465,7 +465,7 @@ def createimage(palette_hexes):
     draw.text(
         (padding, padding),
         "Palette Studio",
-        font=ImageFont.load_default(size=60),
+        font=ImageFont.truetype("AntonSC-Regular.ttf", 120),
         fill="#6F2A27"
     )
     for i, color in enumerate(palette_hexes):
